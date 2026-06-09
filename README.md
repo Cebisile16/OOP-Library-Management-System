@@ -16,8 +16,6 @@ LibraryMember
 Library
 
 Book
-
-
 Represents a book in the library.
 
 Fields
@@ -34,9 +32,7 @@ Constructor
 
 Book(String isbn, String title, String author)
 
-
 Rules
-
 isbn cannot be null or blank
 
 title cannot be null or blank
@@ -260,7 +256,6 @@ List<String> allBookTitles()
 Returns a list containing all book titles.
 
 
-
 Project Structure
 
 
@@ -289,7 +284,7 @@ library-management/
 
 OUTCOME OF THE PROJECT
 
-WILL LEARN HASHMAP SKILLS SUCH AS:
+WILL LEARN HASHMAP AND LIST SKILLS SUCH AS:
 
 HashMap<String, Book>
 HashMap<String, LibraryMember>
@@ -300,3 +295,9 @@ containsKey()
 size()
 values()
 
+Lists
+
+List<Book>
+add()
+size()
+for-each loops
